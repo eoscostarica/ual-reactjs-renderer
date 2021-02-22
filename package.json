@@ -1,11 +1,8 @@
 {
-  "name": "ual-reactjs-renderer",
+  "name": "@eoscostarica/ual-reactjs-renderer",
   "version": "0.3.1",
   "main": "dist/index.js",
-  "author": {
-    "name": "block.one",
-    "url": "https://block.one/"
-  },
+  "author": "block.one (https://block.one/)",
   "collaborators": [
     "Nasser Abouelazm",
     "Mike Manfredi"
@@ -53,5 +50,17 @@
     "jest-enzyme": "^7.1.2",
     "jsdoc": "^3.5.5",
     "typescript": "^3.8.3"
-  }
+  },
+  "description": "This library provides a React renderer around the [Universal Authenticator Library](https://github.com/EOSIO/universal-authenticator-library).",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoscostarica/ual-reactjs-renderer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eoscostarica/ual-reactjs-renderer/issues"
+  },
+  "homepage": "https://github.com/eoscostarica/ual-reactjs-renderer#readme"
 }
